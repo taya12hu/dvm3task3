@@ -1,16 +1,18 @@
+body{
+    padding: 0;
+    margin: 0S;
+}
+
 #navbar{
     background-color: rgba(22, 88, 179);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    position: sticky;
-}
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
     z-index: 1;
-  }
+
+}
+
+
 
 .swwimnav{
     color: white;
@@ -45,13 +47,12 @@
     margin-top: 5px;
 }
 
-.menu:hover{
+.menuflex:hover .menu , .menuflex:hover .design{
     color: #95a8c7;
+
 }
 
-.design:hover{
-    color: #95a8c7;
-}
+
 
 .design{
     color: white;
@@ -60,7 +61,7 @@
 }
 
 .buttcont{
-    background-color: white;
+    background-color:white;
     color: rgba(22, 88, 179);
     border: none;
     border-radius: 25px;
@@ -70,6 +71,13 @@
     font-weight: 600;
     padding: 12px;
 }
+
+.buttcont:hover{
+    background-color:#0c0454;
+    color:white;
+}
+
+
 
 .menuflex{
     margin-top: 5px;
@@ -100,7 +108,7 @@
 #close{
     color: white;
     font-size: 18px;
-    background-color: rgba(22, 88, 179);
+    background-color:rgba(22, 88, 159);
     border: none;
     padding: 0%;
     position: relative;
@@ -119,18 +127,17 @@
 
 }
 
-
 .hamburger{
-    background-color: rgba(22, 88, 179);
+    background-color: rgba(22, 88, 159);
     width: 50%;
     display: none;
     position: absolute;
     top: 1%;
     left:0;
-    -webkit-animation: right-to-left 0.5s linear forwards;
+    -webkit-animation: right-to-left .5s linear forwards;
     animation-iteration-count: 1;
     -webkit-animation-iteration-count: 1;
-    animation: right-to-left 2s ease-in-out linear forwards;
+    animation: right-to-left .5s  linear forwards;
    animation-direction: reverse;
    z-index: 1;
 
