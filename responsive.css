@@ -1,0 +1,367 @@
+
+
+
+@media(max-width:1400px)
+{
+    body{
+        margin-right: 10px;;
+
+    }
+
+    .leaf3{
+    position: absolute;
+    top: 1100px;
+    right: 700px;
+    z-index:-1;
+   transform: rotate(140px);
+   transform: skew(10deg 10deg);
+   }
+
+   .letterclients{
+    margin-left: 560px;;
+   }
+}
+
+
+
+@media(max-width:1300px)
+{
+    .letterclients{
+        margin-left: 520px;;
+       }
+
+    .leaf2{
+        position: absolute;
+        top: -125px;
+        left:850px;
+        transform: rotate(-86deg);
+        z-index: -1;
+    }
+
+
+
+
+    .d2 h1 {
+        font-family: Baton Turbo, Arial, sans-serif;
+        font-size:80px;
+        color: white;
+      }
+
+      .headphone-move img{
+        position:absolute;left:550px;top:60px;
+      }
+
+      .del2 {
+        display: grid;
+        grid-template-columns:45% 50%;
+        grid-column-gap: 5%;
+      }
+
+      .d2{
+        margin-top: 30px;;
+      }
+
+      .pic2 img{
+        width:490px;height:200px;
+        margin-top: 30px;;
+      }
+
+ }
+
+
+
+
+
+ @media(max-width:1265px)
+ {
+    #rotateswwim{
+        height: 120px;
+        width: 120px;
+        position: relative;
+        right: 40px;
+        top: 160px;
+    }
+
+    #rotatetext {
+        position: relative;
+        right: 190px;
+        top:-90px;
+        height: 350px;
+        width: 350px;
+      }
+
+
+
+
+
+ }
+
+
+ @media(max-width:1100px)
+ {
+    .leaf2{
+        position: absolute;
+        top: -125px;
+        left:650px;
+        transform: rotate(-86deg);
+        z-index: -1;
+    }
+
+    .leaf3{
+        position: absolute;
+        top: 1200px;
+        right: 500px;
+        z-index:-1;
+        transform: rotate(140px);
+        transform: skew(10deg 10deg);
+    }
+
+
+/*
+    .pic1 img{
+      height: 100px;
+      width:300px;
+          }
+*/
+    .headphone{
+        padding-right: 10px;
+          }
+
+    .headphone-move img{
+
+            position:absolute;
+            left:500px;
+            top:100px;
+          }
+
+
+    .sleep {
+         display: grid;
+         grid-template-columns: 40% 30%;
+         grid-gap: 150px;
+         padding-top: 100px;
+         padding-bottom: 100px;
+          }
+
+          .delivery {
+            display: grid;
+            grid-template-columns: 40% 30%
+            grid-column-gap:150px;
+            height: 190px;
+            padding-top: 0px;
+            margin-top: auto;
+          }
+
+
+
+          .juice {
+            display: grid;
+            grid-template-columns: 10% 30% 30%;
+            padding-top: 40px;
+            grid-gap:5%;
+          }
+
+          .creative {
+            display: grid;
+            grid-template-columns: 56% 26%;
+            grid-column-gap: 5%;
+            margin-top: -120px;
+            margin-bottom: -80px;
+
+          }
+
+
+          .creative p {
+            font-size: 18px;
+            color: white;
+            font-family: Greycliff, Arial, sans-serif;
+            padding-top: 50px;
+            width:300px;
+          }
+
+
+
+
+
+          .del2 {
+            display: grid;
+            grid-template-columns: 40% 55%;
+            grid-gap:5%;
+
+          }
+          .pic2 img{
+            width:100%;height:60%;
+          }
+
+          .delivery {
+            display: grid;
+            grid-template-columns: 50% 36%;
+            grid-column-gap: 5%;
+            height: 190px;
+            padding-top: 0px;
+            margin-top: auto;
+          }
+
+          .pic1 img{
+            width:100%;height:40%;
+          }
+
+          .creative p {
+            font-size: 1.2vw;
+            color: white;
+            font-family: Greycliff, Arial, sans-serif;
+            padding-top: 60px;
+
+          }
+
+          .d2 h1 {
+            font-family: Baton Turbo, Arial, sans-serif;
+            font-size: 5vw;
+            color: white;
+          }
+
+
+          .grid {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            height: 650px;
+            background-color: white;
+            margin-left: 25px;
+            margin-right: 25px;
+        }
+
+
+
+
+
+        .headingsection {
+            margin-left: 70px;
+            position: relative;
+            padding-top: 600px;
+
+        }
+
+
+ }
+
+
+
+
+
+ @media(max-width:1000px)
+ {
+    .contactflex{
+       flex-direction: column;
+       gap:20px;
+    }
+
+    .coflex1{
+        margin-bottom: 0px;;
+    }
+ }
+
+
+
+
+
+ @media(max-width:950px)
+ {
+    .flex2{
+        display: flex;
+    }
+
+    .flexest2{
+        display: flex;
+    }
+
+    .sleepimg img{
+        width: 300px;
+        height: 500px;
+
+    }
+
+    .duck img {
+        position: absolute;
+        top: 330px;
+        left: 150px;
+        width: 250px;
+        height: 350px;
+      }
+
+
+    .girlchill {
+       display: block;
+    }
+
+    .goa {
+        background: url("https://www.weswwim.com/_next/image?url=%2Ficons%2Fthe-doing-palm.svg&w=1920&q=75")no-repeat;
+        background-size: 1050px 1050px;
+        background-position-x: -130px;
+        margin-left: 0px;
+        position: relative;
+        top: 100px;
+
+      }
+      .servicesec {
+        display: grid;
+        grid-template-columns: 15% 68% 2%;
+
+    }
+    .midsec {
+        display: grid;
+        grid-template-columns: 15% 50%;
+        grid-gap:10px;
+
+ }
+}
+
+
+
+
+@media(max-width:770px)
+{
+    .sleepimg img{
+        width: 200px;
+        height: 400px;
+
+    }
+}
+
+
+
+ @media(max-width:620px)
+ {
+   .news1,.news2,.news3{
+    display: inline-block;
+   }
+
+   .flexcolumn{
+    gap:20px;
+   }
+
+   .flex2,.flexest2{
+    display: block;
+    gap:20px;
+   }
+
+   .midsec {
+    display: grid;
+    grid-template-columns: 15% 50%;
+    grid-gap:10px;
+}
+
+
+
+.servicesec {
+    display: grid;
+    grid-template-columns: 15% 68% 2%;
+
+}
+ }
+
+
+
+
+ @media(max-width:620px){
+
+ }
