@@ -81,6 +81,8 @@ margin-top: 15px;
  display: flex;
  flex-direction: row;
  gap: 270px;
+ padding-right: 25px;
+ ;
 
 
   background-color:rgba(26,68,135,255);
@@ -134,7 +136,7 @@ margin-top: 15px;
 
 .contactflex{
   display: flex;
-  flex-direction: row;
+
   gap:90px;
 }
 
