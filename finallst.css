@@ -1,3 +1,8 @@
+body{
+    padding: 0;
+    margin: 0S;
+}
+
 .container3{
 
   background-color: rgba(13,97,225,255);
@@ -115,6 +120,17 @@ margin-top: 15px;
   font-size: 15px;
   font-weight: bold;
 }
+
+.contactbutton:hover{
+  color:white;
+
+  animation: buttoncolor 1s ;
+}
+@keyframes buttoncolor{
+  from {background-color:white;}
+  to {background-color: #220587;}
+}
+
 
 .contactflex{
   display: flex;
