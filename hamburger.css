@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    position: sticky;
+
 }
 .sticky {
     position: fixed;
@@ -126,7 +126,8 @@
     display: none;
     position: absolute;
     top: 1%;
-    left:0;
+  /*  left:0;*/
+  right: 0px;
     -webkit-animation: right-to-left 0.5s linear forwards;
     animation-iteration-count: 1;
     -webkit-animation-iteration-count: 1;
@@ -135,11 +136,12 @@
    z-index: 1;
 
 }
-
+/*
 @keyframes right-to-left{
     from{left:50%}
     to{left:100%}
 }
+*/
 
 .swwimham{
     color: white;
